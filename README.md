@@ -4,3 +4,4 @@ it corrupts one file and executes a malicious code
 the corupted file also does the same  
 you can change the isevil() function to your own malicious code.  
 Use the shell script to test or to understand how the virus works
+also make sure the file size is right, you can use shell script to identify this.
