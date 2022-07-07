@@ -74,8 +74,9 @@ void main(int argc, char *argv[])
 //function the run someting evil
 void evil()
 {
-   while(True)
-       system("gedit");
+   puts(MESSAGE);
+   //while(True)
+   //    system("gedit");
 }
 
 
